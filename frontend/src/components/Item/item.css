@@ -1,0 +1,19 @@
+.item {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.itemContainer {
+  display: flex;
+  padding: 10px;
+  border-radius: 10px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.listItem{
+  -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}

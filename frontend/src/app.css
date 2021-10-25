@@ -1,0 +1,13 @@
+.container{
+    display: flex;
+    padding: 20px;
+    text-align: center;
+    flex-direction: column;
+}
+
+.itemList{
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+
