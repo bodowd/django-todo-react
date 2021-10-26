@@ -34,14 +34,12 @@ export default function ToDoForm({ createToDo }) {
           value={newTitle}
           onChange={handleChangeTitle}
         />
-        <br />
         Description:
         <input
           className="inputDescription"
           value={newDescription}
           onChange={handleChangeDescription}
         />
-        <br />
         <button className="submitNew" type="submit">
           Save
         </button>

@@ -38,7 +38,6 @@ function App() {
       <Topbar />
       <div className="container">
         <ToDoForm createToDo={addToDo} />
-        <ul className="itemList">
           {todos.map((d) => (
             <Item
               key={d.id}
@@ -46,7 +45,6 @@ function App() {
               deleteItem={deleteItem}
             />
           ))}
-        </ul>
       </div>
     </>
   );
